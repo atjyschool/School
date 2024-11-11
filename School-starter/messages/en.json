@@ -1,0 +1,22 @@
+{
+  "NavBar": {
+    "MENU": "MENU",
+    "Home": "Home",
+    "Teachers": "Teachers",
+    "Students": "Students",
+    "Parents": "Parents",
+    "Subjects": "Subjects",
+    "Classes": "Classes",
+    "Lessons": "Lessons",
+    "Exams": "Exams",
+    "Assignments": "Assignments",
+    "Results": "Results",
+    "Attendance": "Attendance",
+    "Events": "Events",
+    "Messages": "Messages",
+    "Announcements": "Announcements",
+    "Profile": "Profile",
+    "Settings": "Settings",
+    "Logout": "Logout"
+  }
+}

@@ -1,0 +1,22 @@
+{
+    "NavBar": {
+      "MENU": "菜单",
+      "Home": "主页",
+      "Teachers": "教师",
+      "Students": "学生",
+      "Parents": "家长",
+      "Subjects": "科目",
+      "Classes": "班级",
+      "Lessons": "课程",
+      "Exams": "考试",
+      "Assignments": "作业",
+      "Results": "成绩",
+      "Attendance": "出勤",
+      "Events": "事件",
+      "Messages": "消息",
+      "Announcements": "公告",
+      "Profile": "个人资料",
+      "Settings": "设置",
+      "Logout": "登出"
+    }
+}
