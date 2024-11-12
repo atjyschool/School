@@ -28,9 +28,10 @@ jobs:
       - name: Build and push Docker image
         uses: docker/build-push-action@v5
         with:
-          context: ./School-starter    
-          file: ./School-starter/Dockerfile  
+          context: ./School-starter           
+          file: ./School-starter/Dockerfile    
           push: true
+          platforms: linux/amd64,linux/arm64,linux/arm/v7,linux/arm/v6  # 多平台支持
           tags: superkangkang/school:latest
 
       - name: Image digest
