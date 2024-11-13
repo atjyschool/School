@@ -1,6 +1,7 @@
 {
   "NavBar": {
     "MENU": "MENU",
+    "OTHER":"OTHER",
     "Home": "Home",
     "Teachers": "Teachers",
     "Students": "Students",
