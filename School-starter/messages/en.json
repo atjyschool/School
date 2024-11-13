@@ -19,5 +19,11 @@
     "Profile": "Profile",
     "Settings": "Settings",
     "Logout": "Logout"
+  },
+  "UserCards":{
+      "student": "Students",
+      "teacher": "Teachers",
+      "parent": "Parents",
+      "staff": "Staff"
   }
 }

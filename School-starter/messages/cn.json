@@ -19,5 +19,11 @@
       "Profile": "个人资料",
       "Settings": "设置",
       "Logout": "登出"
+    },
+    "UserCards":{
+      "student": "学生人数",
+      "teacher": "教师人数",
+      "parent": "家长人数",
+      "staff": "员工人数"
     }
 }
