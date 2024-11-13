@@ -37,9 +37,11 @@
     "Wed": "周三",
     "Thu": "周四",
     "Fri": "周五",
-    "present": "已签到",
+    "Sat": "周六",
+    "Sun": "周天",
+    "present": "已签到(在读）",
     "absent": "缺勤",
-    "Attendance":"考勤一周总览"
+    "Attendance":"本周考勤总览"
 
   }
 }
