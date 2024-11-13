@@ -38,6 +38,7 @@
     "Thu": "Thu",
     "Fri": "Fri",
     "present": "Present",
-    "absent": "Absent"
+    "absent": "Absent",
+    "Attendance":"Attendance"
   }
 }
