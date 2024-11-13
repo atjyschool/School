@@ -65,6 +65,16 @@ const AttendanceChart = () => {
       present: 65,
       absent: 55,
     },
+    {
+      name: t("Sat"),
+      present: 85,
+      absent: 75,
+    },
+    {
+      name: t("Sun"),
+      present: 95,
+      absent: 85,
+    },
   ];
 
   return (

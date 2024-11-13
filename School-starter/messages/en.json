@@ -37,6 +37,8 @@
     "Wed": "Wed",
     "Thu": "Thu",
     "Fri": "Fri",
+    "Sat": "Sat",
+    "Sun": "Sun",
     "present": "Present",
     "absent": "Absent",
     "Attendance":"Attendance"
