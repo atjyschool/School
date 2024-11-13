@@ -120,13 +120,13 @@ const EnrollmentChart = () => {
           <Line
             type="monotone"
             dataKey="_2023"
-            stroke="#C3EBFA"
+            stroke="grey"
             strokeWidth={5}
           />
           <Line
             type="monotone"
             dataKey="_2024"
-            stroke="#CFCEFF"
+            stroke="red"
             strokeWidth={5}
           />
         </LineChart>

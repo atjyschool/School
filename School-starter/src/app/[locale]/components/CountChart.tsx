@@ -17,7 +17,7 @@ const data = [
   {
     name: "Girls",
     count: 53,
-    fill: "#FAE27C",
+    fill: "pink",
   },
   {
     name: "Boys",
@@ -65,7 +65,7 @@ const CountChart = () => {
           <h2 className="text-xs text-gray-300">{t("Boys")} (55%)</h2>
         </div>
         <div className="flex flex-col gap-1">
-          <div className="w-5 h-5 bg-lamaYellow rounded-full" />
+          <div className="w-5 h-5 bg-rose-300 rounded-full" />
           <h1 className="font-bold">1,234</h1>
           <h2 className="text-xs text-gray-300">{t("Girls")} (45%)</h2>
         </div>
