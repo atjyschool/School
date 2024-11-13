@@ -25,5 +25,21 @@
       "teacher": "教师人数",
       "parent": "家长人数",
       "staff": "员工人数"
-    }
+    },
+    "Charts":{
+    "Students":"性别比例",
+    "Boys": "男生",
+    "Girls": "女生",
+    "Enrollment": "注册学生年度比较",
+    "Jan": "一月", "Feb": "二月", "Mar": "三月", "Apr": "四月", "May": "五月", "Jun": "六月", "Jul": "七月","Aug": "八月","Sep": "九月","Oct": "十月","Nov":"十一月","Dec":"十二月",
+    "Mon": "周一",
+    "Tue": "周二",
+    "Wed": "周三",
+    "Thu": "周四",
+    "Fri": "周五",
+    "present": "已签到",
+    "absent": "缺勤",
+    "Attendance":"考勤一周总览"
+
+  }
 }
