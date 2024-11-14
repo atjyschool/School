@@ -42,5 +42,12 @@
     "present": "Present",
     "absent": "Absent",
     "Attendance":"Attendance"
+  },
+  "EventCalendar":{
+    "Events":"Events"
+  },
+  "Announcements":{
+    "Announcements":"Announcements",
+    "View All":"View All"
   }
 }
