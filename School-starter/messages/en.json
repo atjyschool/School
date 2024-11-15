@@ -61,6 +61,10 @@
     "agenda": "Agenda",
     "date": "Date",
     "time": "Time",
-    "event": "Event"
+    "event": "Event",
+    "Events":"Events",
+    "Announcements":"Announcements",
+    "View All":"View All",
+    "Schedule":"Schedule"
   }
 }

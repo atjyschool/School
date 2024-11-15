@@ -1,37 +1,48 @@
 {
-    "NavBar": {
-      "MENU": "菜单",
-      "OTHER": "其它功能",
-      "Home": "主页",
-      "Teachers": "教师",
-      "Students": "学生",
-      "Parents": "家长",
-      "Subjects": "科目",
-      "Classes": "班级",
-      "Lessons": "课程",
-      "Exams": "考试",
-      "Assignments": "作业",
-      "Results": "成绩",
-      "Attendance": "出勤",
-      "Events": "事件",
-      "Messages": "消息",
-      "Announcements": "公告",
-      "Profile": "个人资料",
-      "Settings": "设置",
-      "Logout": "登出"
-    },
-    "UserCards":{
-      "student": "学生人数",
-      "teacher": "教师人数",
-      "parent": "家长人数",
-      "staff": "员工人数"
-    },
-    "Charts":{
-    "Students":"性别比例",
+  "NavBar": {
+    "MENU": "菜单",
+    "OTHER": "其它功能",
+    "Home": "主页",
+    "Teachers": "教师",
+    "Students": "学生",
+    "Parents": "家长",
+    "Subjects": "科目",
+    "Classes": "班级",
+    "Lessons": "课程",
+    "Exams": "考试",
+    "Assignments": "作业",
+    "Results": "成绩",
+    "Attendance": "出勤",
+    "Events": "事件",
+    "Messages": "消息",
+    "Announcements": "公告",
+    "Profile": "个人资料",
+    "Settings": "设置",
+    "Logout": "登出"
+  },
+  "UserCards": {
+    "student": "学生人数",
+    "teacher": "教师人数",
+    "parent": "家长人数",
+    "staff": "员工人数"
+  },
+  "Charts": {
+    "Students": "性别比例",
     "Boys": "男生",
     "Girls": "女生",
     "Enrollment": "注册学生年度比较",
-    "Jan": "一月", "Feb": "二月", "Mar": "三月", "Apr": "四月", "May": "五月", "Jun": "六月", "Jul": "七月","Aug": "八月","Sep": "九月","Oct": "十月","Nov":"十一月","Dec":"十二月",
+    "Jan": "一月",
+    "Feb": "二月",
+    "Mar": "三月",
+    "Apr": "四月",
+    "May": "五月",
+    "Jun": "六月",
+    "Jul": "七月",
+    "Aug": "八月",
+    "Sep": "九月",
+    "Oct": "十月",
+    "Nov": "十一月",
+    "Dec": "十二月",
     "Mon": "周一",
     "Tue": "周二",
     "Wed": "周三",
@@ -41,17 +52,16 @@
     "Sun": "周天",
     "present": "已签到(在读）",
     "absent": "缺勤",
-    "Attendance":"本周考勤总览"
-
+    "Attendance": "本周考勤总览"
   },
-  "EventCalendar":{
-    "Events":"已选日期事件"
+  "EventCalendar": {
+    "Events": "已选日期事件"
   },
-  "Announcements":{
-    "Announcements":"重要通知",
-    "View All":"查看"
+  "Announcements": {
+    "Announcements": "重要通知",
+    "View All": "查看"
   },
-  "Calendar":{
+  "Calendar": {
     "allDay": "全天",
     "previous": "前一个",
     "next": "下一个",
@@ -62,6 +72,10 @@
     "agenda": "列表",
     "date": "日期",
     "time": "时间",
-    "event": "事件"
+    "event": "事件",
+    "Events": "已选日期事件",
+    "Announcements": "重要通知",
+    "View All": "查看",
+    "Schedule": "课表"
   }
 }
