@@ -128,7 +128,7 @@
 }
 
 .rbc-timeslot-group {
-  background-color: #f7fdff !important;
+  background-color: white !important;
 }
 
 .rbc-day-slot {
@@ -136,7 +136,7 @@
 }
 
 .rbc-event {
-  background-color: #f0f0f0; /* 浅灰色背景 */
+  background-color: white; /* 浅灰色背景 */
   color: #000000; /* 黑色文本 */
   padding: 4px; /* 增加内部空间 */
   border: 1px solid #ddd; /* 边框，可选 */
@@ -144,32 +144,28 @@
 }
 
 .rbc-event:nth-child(1) {
-  background-color: #e2f8ff !important;
+  background-color: RGB(21,94,113) !important;
 }
 .rbc-event:nth-child(2) {
-  background-color: #fefce8 !important;
+  background-color: #0D7986 !important;
 }
 .rbc-event:nth-child(3) {
-  background-color: #f2f1ff !important;
+  background-color: #7CB9AB !important;
 }
 .rbc-event:nth-child(4) {
-  background-color: #fdf2fb !important;
+  background-color: #B0BC9E !important;
 }
 .rbc-event:nth-child(5) {
-  background-color: #e2f8ff !important;
+  background-color: #F4C084 !important;
 }
 .rbc-event:nth-child(6) {
-  background-color: #fefce8 !important;
-}
-.rbc-event:nth-child(7) {
-  background-color: #f2f1ff !important;
-}
-.rbc-event:nth-child(8) {
-  background-color: #fdf2fb !important;
+  background-color: RGB(221,148,79) !important;
 }
 
+
+
 .rbc-event-label{
-  color: gray !important;
+  color: white !important;
   margin-bottom: 5px;
 }
 
@@ -177,5 +173,5 @@
   white-space: nowrap; /* 防止文本折行 */
   overflow: hidden; /* 隐藏溢出文本 */
   text-overflow: ellipsis; /* 溢出文本显示省略号 */
-  color: slategray;
+  color: white;
 }
