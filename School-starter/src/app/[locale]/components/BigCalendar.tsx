@@ -15,7 +15,7 @@ const localeMappings: { [key: string]: string } = {
 const localizer = momentLocalizer(moment);
 
 const BigCalendar = () => {
-  const [view, setView] = useState<View>(Views.WORK_WEEK);
+  const [view, setView] = useState<View>(Views.WEEK);
   const [date, setDate] = useState(new Date());
   const t = useTranslations('Calendar');
   const rawLocale = useLocale();
