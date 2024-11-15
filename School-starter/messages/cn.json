@@ -49,6 +49,19 @@
   },
   "Announcements":{
     "Announcements":"重要通知",
-    "View All":"查看全部"
+    "View All":"查看"
+  },
+  "Calendar":{
+    "allDay": "全天",
+    "previous": "前一个",
+    "next": "下一个",
+    "today": "今天",
+    "month": "月视图",
+    "week": "周视图",
+    "day": "日视图",
+    "agenda": "列表",
+    "date": "日期",
+    "time": "时间",
+    "event": "事件"
   }
 }
