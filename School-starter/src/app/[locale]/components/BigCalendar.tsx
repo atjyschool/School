@@ -1,5 +1,5 @@
 "use client";
-import { Calendar, momentLocalizer, Views } from "react-big-calendar";
+import { Calendar, momentLocalizer, Views,View } from "react-big-calendar";
 import moment from "moment";
 import "moment/locale/zh-cn"; 
 import { calendarEvents } from "@/lib/data";
@@ -15,7 +15,7 @@ const localeMappings: { [key: string]: string } = {
 const localizer = momentLocalizer(moment);
 
 const BigCalendar = () => {
-  const [view, setView] = useState(Views.WEEK);
+  const [view, setView] = useState<View>(Views.WORK_WEEK);
   const [date, setDate] = useState(new Date());
   const t = useTranslations('Calendar');
   const rawLocale = useLocale();
@@ -30,7 +30,7 @@ const BigCalendar = () => {
     });
   }, [rawLocale]);
 
-  const handleOnChangeView = (selectedView) => {
+  const handleOnChangeView = (selectedView: View) => {
     setView(selectedView);
   };
 
