@@ -1,14 +1,15 @@
 "use client";
 import { Calendar, momentLocalizer, Views } from "react-big-calendar";
 import moment from "moment";
-import "moment/locale/zh-cn"; // 确保使用中文日期格式
+import "moment/locale/zh-cn"; 
 import { calendarEvents } from "@/lib/data";
 import "react-big-calendar/lib/css/react-big-calendar.css";
 import { useState, useEffect,useCallback,useMemo} from "react";
 import { useLocale,useTranslations } from "next-intl";
 
-const localeMappings = {
-  cn: "zh-cn",
+const localeMappings: { [key: string]: string } = {
+  cn: "zh-cn", 
+  us: "en-us", 
 };
 
 const localizer = momentLocalizer(moment);
@@ -24,7 +25,7 @@ const BigCalendar = () => {
     moment.locale(momentLocale);
     moment.updateLocale(momentLocale, {
       week: {
-        dow: 1,
+        dow: 1, 
       },
     });
   }, [rawLocale]);
