@@ -80,9 +80,6 @@ const BigCalendar = () => {
     []
   );
 
-
-
-
   return (
     <>
       {/* Display selected appointment details */}
