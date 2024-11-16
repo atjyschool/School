@@ -76,6 +76,10 @@
     "Events": "已选日期事件",
     "Announcements": "重要通知",
     "View All": "查看",
-    "Schedule": "课表"
+    "Schedule": "课表",
+    "Location": "教室",
+    "Resource": "教师",
+    "Address":"地址",
+    "Status":"状态"
   }
 }

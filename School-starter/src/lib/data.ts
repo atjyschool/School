@@ -1,4 +1,6 @@
 // TEMPORARY DATA
+import moment from "moment";
+import { EventItem } from "./types";
 
 export let role = "admin";
 
@@ -917,163 +919,59 @@ export const announcementsData = [
 
 
 // YOU SHOULD CHANGE THE DATES OF THE EVENTS TO THE CURRENT DATE TO SEE THE EVENTS ON THE CALENDAR
-export const calendarEvents = [
+export const calendarEvents: EventItem[] = [
   {
-    title: "Alevel Math",
-    allDay: false,
-    start: new Date(2024, 10, 12, 8, 0),
-    end: new Date(2024, 10, 12, 8, 45),
+      title: "Alevel Math",
+      allDay: false,
+      start: new Date(2024, 10, 12, 8, 0),
+      end: new Date(2024, 10, 12, 8, 45),
+      data: {
+        appointment: {
+            id: 1,
+            status: "Scheduled",
+            location: "Room 103",
+            resource: "John",
+            address: "High School Building A"
+        }
+    },
+      isDraggable: true,
+      isResizable: true,
+      resourceId: 1
   },
   {
-    title: "IELTS",
-    allDay: false,
-    start: new Date(2024, 10, 12, 9, 0),
-    end: new Date(2024, 10, 12, 9, 45),
+      title: "IELTS",
+      allDay: false,
+      start: new Date(2024, 10, 12, 9, 0),
+      end: new Date(2024, 10, 12, 9, 45),
+      data: {
+        appointment: {
+            id: 2,
+            status: "Scheduled",
+            location: "Room 102",
+            resource: "Andy Shen",
+            address: "High School Building B"
+        }
+    },
+      isDraggable: true,
+      isResizable: true,
+      resourceId: 2
   },
   {
-    title: "Biology",
-    allDay: false,
-    start: new Date(2024, 10, 12, 10, 0),
-    end: new Date(2024, 10, 12, 10, 45),
+      title: "IELTS Reading",
+      allDay: false,
+      start: new Date(2024, 10, 16, 14, 0),
+      end: new Date(2024, 10, 16, 14, 45),
+      data: {
+          appointment: {
+              id: 3,
+              status: "Scheduled",
+              location: "Room 101",
+              resource: "Teacher John",
+              address: "High School Building A"
+          }
+      },
+      isDraggable: true,
+      isResizable: true,
+      resourceId: 3
   },
-  {
-    title: "Physics",
-    allDay: false,
-    start: new Date(2024, 10, 12, 11, 0),
-    end: new Date(2024, 10, 12, 11, 45),
-  },
-  {
-    title: "Chemistry",
-    allDay: false,
-    start: new Date(2024, 10, 12, 13, 0),
-    end: new Date(2024, 10, 12, 13, 45),
-  },
-  {
-    title: "History",
-    allDay: false,
-    start: new Date(2024, 10, 12, 14, 0),
-    end: new Date(2024, 10, 12, 14, 45),
-  },
-  {
-    title: "IELTS",
-    allDay: false,
-    start: new Date(2024, 10, 13, 9, 0),
-    end: new Date(2024, 10, 13, 9, 45),
-  },
-  {
-    title: "Biology",
-    allDay: false,
-    start: new Date(2024, 10, 13, 10, 0),
-    end: new Date(2024, 10, 13, 10, 45),
-  },
-  {
-    title: "Physics",
-    allDay: false,
-    start: new Date(2024, 10, 13, 11, 0),
-    end: new Date(2024, 10, 13, 11, 45),
-  },
-  {
-    title: "History",
-    allDay: false,
-    start: new Date(2024, 10, 13, 14, 0),
-    end: new Date(2024, 10, 13, 14, 45),
-  },
-  {
-    title: "Alevel Math",
-    allDay: false,
-    start: new Date(2024, 10, 14, 8, 0),
-    end: new Date(2024, 10, 14, 8, 45),
-  },
-  {
-    title: "Biology",
-    allDay: false,
-    start: new Date(2024, 10, 14, 10, 0),
-    end: new Date(2024, 10, 14, 10, 45),
-  },
-  {
-    title: "Chemistry",
-    allDay: false,
-    start: new Date(2024, 10, 14, 13, 0),
-    end: new Date(2024, 10, 14, 13, 45),
-  },
-  {
-    title: "History",
-    allDay: false,
-    start: new Date(2024, 10, 14, 14, 0),
-    end: new Date(2024, 10, 14, 14, 45),
-  },
-  {
-    title: "IELTS1",
-    allDay: false,
-    start: new Date(2024, 10, 15, 9, 0),
-    end: new Date(2024, 10, 15, 9, 45),
-  },
-  {
-    title: "IELTS1",
-    allDay: false,
-    start: new Date(2024, 10, 15, 9, 0),
-    end: new Date(2024, 10, 15, 9, 45),
-  },
-  {
-    title: "IELTS1",
-    allDay: false,
-    start: new Date(2024, 10, 15, 9, 0),
-    end: new Date(2024, 10, 15, 9, 45),
-  },
-  {
-    title: "IELTS1",
-    allDay: false,
-    start: new Date(2024, 10, 15, 9, 0),
-    end: new Date(2024, 10, 15, 9, 45),
-  },
-  {
-    title: "Biology",
-    allDay: false,
-    start: new Date(2024, 10, 15, 10, 0),
-    end: new Date(2024, 10, 15, 10, 45),
-  },
-  {
-    title: "Physics",
-    allDay: false,
-    start: new Date(2024, 10, 15, 11, 0),
-    end: new Date(2024, 10, 15, 11, 45),
-  },
-  {
-    title: "History",
-    allDay: false,
-    start: new Date(2024, 10, 15, 14, 0),
-    end: new Date(2024, 10, 15, 14, 45),
-  },
-  {
-    title: "Alevel Math",
-    allDay: false,
-    start: new Date(2024, 10, 16, 8, 0),
-    end: new Date(2024, 10, 16, 8, 45),
-  },
-  {
-    title: "IELTS",
-    allDay: false,
-    start: new Date(2024, 10, 16, 9, 0),
-    end: new Date(2024, 10, 16, 9, 45),
-  },
-  {
-    title: "Physics",
-    allDay: false,
-    start: new Date(2024, 10, 16, 11, 0),
-    end: new Date(2024, 10, 16, 11, 45),
-  },
-  {
-    title: "Chemistry1",
-    allDay: false,
-    start: new Date(2024, 10, 16, 13, 0),
-    end: new Date(2024, 10, 16, 13, 45),
-  },
-  {
-    title: "History1",
-    allDay: false,
-    start: new Date(2024, 10, 16, 14, 0),
-    end: new Date(2024, 10, 16, 14, 45),
-    resource: "hello"
-  },
-  
 ];

@@ -175,3 +175,25 @@
   text-overflow: ellipsis; /* 溢出文本显示省略号 */
   color: white;
 }
+
+.appointment-details {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 8px;
+  margin-top: 20px;
+  margin-bottom: 30px; /* 添加底部外边距 */
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.appointment-details p {
+  font-size: 16px;          /* 字体大小 */
+  color: #333;              /* 字体颜色 */
+  line-height: 1.5;         /* 行间距 */
+  margin-bottom: 10px;      /* 段落之间的距离 */
+}
+
+.appointment-details strong {
+  color: #0056b3;           /* 强调字体颜色 */
+  font-weight: bold;        /* 字体加粗 */
+}
